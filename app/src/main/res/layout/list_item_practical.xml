@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:divider="@null"
+    android:dividerHeight="10dp">
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_weight="1.6"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_time"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/start_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="8dp"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            tools:text="9 AM" />
+
+        <View
+            android:layout_width="3dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginBottom="28dp"
+            android:layout_marginTop="28dp"
+            android:alpha="0.7"
+            android:background="#F06292" />
+
+        <TextView
+            android:id="@+id/end_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:paddingBottom="8dp"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            tools:text="11 AM" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="9"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:background="@drawable/background_orange"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/subject_prac_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:autoSizeMaxTextSize="15sp"
+                android:textColor="@android:color/background_light"
+                android:textStyle="bold"
+                tools:text="subject" />
+
+            <TextView
+                android:id="@+id/desc_prac_1"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="desc"/>
+
+            <TextView
+                android:id="@+id/batch1"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:textColorLink="@android:color/white"
+                tools:text="batch" />
+
+
+            <TextView
+                android:id="@+id/faculty_prac_1"
+                android:textAlignment="center"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="faculty"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="3dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/background_light"
+            android:visibility="invisible">
+
+
+        </View>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:background="@drawable/background_orange"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/subject_prac_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@android:color/background_light"
+                android:textStyle="bold"
+                tools:text="subject" />
+
+            <TextView
+                android:id="@+id/desc_prac_2"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="desc"/>
+
+            <TextView
+                android:id="@+id/batch2"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:textColorLink="@android:color/white"
+                tools:text="batch" />
+
+            <TextView
+                android:id="@+id/faculty_prac_2"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="faculty"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="3dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:background="@android:color/background_light"
+            android:visibility="invisible">
+
+
+        </View>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:background="@drawable/background_orange"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:id="@+id/subject_prac_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@android:color/background_light"
+                android:textStyle="bold"
+                tools:text="subject" />
+
+            <TextView
+                android:id="@+id/desc_prac_3"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="desc"/>
+
+            <TextView
+                android:id="@+id/batch3"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:textColorLink="@android:color/white"
+                tools:text="batch" />
+
+
+            <TextView
+                android:id="@+id/faculty_prac_3"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="faculty"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="3dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:background="@android:color/background_light"
+            android:visibility="invisible">
+
+
+        </View>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:background="@drawable/background_orange"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:id="@+id/subject_prac_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@android:color/background_light"
+                android:textStyle="bold"
+                tools:text="subject" />
+
+            <TextView
+                android:id="@+id/desc_prac_4"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="desc"/>
+
+            <TextView
+                android:id="@+id/batch4"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:textColorLink="@android:color/white"
+                tools:text="batch" />
+
+            <TextView
+                android:id="@+id/faculty_prac_4"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="faculty"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

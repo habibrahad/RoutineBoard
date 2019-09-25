@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1.5"
+        android:background="@drawable/background_time"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/start_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="8dp"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            tools:text="9 AM" />
+
+        <View
+            android:layout_width="3dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginBottom="28dp"
+            android:layout_marginTop="28dp"
+            android:alpha="0.7"
+            android:background="#76FF03" />
+
+        <TextView
+            android:id="@+id/end_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:paddingBottom="8dp"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            tools:text="11 AM" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="9"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:background="@drawable/background_green"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/subject"
+            android:layout_width="match_parent"
+
+            android:gravity="center"
+            android:textColor="@android:color/background_light"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textColorLink="@android:color/white"
+
+            android:textStyle="bold"
+            tools:text="subject" />
+
+        <TextView
+            android:id="@+id/desc"
+            android:layout_width="match_parent"
+
+            android:gravity="center"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textColorLink="@android:color/white"
+            tools:text="desc" />
+
+        <TextView
+            android:id="@+id/batch"
+            android:layout_width="match_parent"
+
+            android:gravity="center"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textColorLink="@android:color/white"
+            tools:text="batch" />
+
+        <TextView
+            android:id="@+id/faculty"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColorLink="@android:color/white"
+            tools:text="faculty" />
+
+    </LinearLayout>
+
+</LinearLayout>

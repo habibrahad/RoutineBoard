@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">prototype of routine v0.01</string>
+
+    # Batches
+    <string name="all">"ALL"</string>
+    <string name="b1">"B1"</string>
+    <string name="b12">"B1,B2"</string>
+    <string name="b34">"B3,B4"</string>
+    <string name="b2">"B2"</string>
+    <string name="b3">"B3"</string>
+    <string name="b4">"B4"</string>
+
+    # Subjects
+    <string name="cd">"sub 1"</string>
+    <string name="se">"sub 2"</string>
+    <string name="itnm">"sub 3"</string>
+    <string name="cgm">"sub 4"</string>
+    <string name="mp">"sub 5"</string>
+    <string name="wt">"sub 6"</string>
+    <string name="sl">"sub 7"</string>
+    <string name="ed">"sub 8"</string>
+    <string name="lib">"sub 9"</string>
+    <string name="sprt">"sub 10"</string>
+
+    # Faculties
+    <string name="js">"sir 1"</string>
+    <string name="rn">"sir 2"</string>
+    <string name="sb">"sir 3"</string>
+    <string name="pm">"sir 4"</string>
+    <string name="am">"sir 5"</string>
+    <string name="ns">"sir 6"</string>
+    <string name="np">"sir 7"</string>
+    <string name="ag">"sir 8"</string>
+    <string name="ss">"sir 9"</string>
+    <string name="mk">"sir 10"</string>
+    <string name="ap">"sir 11"</string>
+    <string name="rj">"sir 12"</string>
+    <string name="none">" ------ "</string>
+
+
+    # Time
+    <string name="t8">"8 AM"</string>
+    <string name="t9">"9 AM"</string>
+    <string name="t10">"10 AM"</string>
+    <string name="t12">"12 PM"</string>
+    <string name="t11">"11 AM"</string>
+    <string name="t1230">"12.30 PM"</string>
+    <string name="t130">"1.30 PM"</string>
+    <string name="t330">"3.30 PM"</string>
+    <string name="t230">"2.30 PM"</string>
+    <string name="t1">"1 PM"</string>
+    <string name="t2">"2 PM"</string>
+
+
+    # Subject Codes
+    <string name="cd1">"course 1"</string>
+    <string name="se1">"course 2"</string>
+    <string name="itnm1">"course 3"</string>
+    <string name="cgm1">"course 4"</string>
+    <string name="mp1">"course 5"</string>
+    <string name="wt1">"course 6"</string>
+    <string name="sl1">"course 7"</string>
+    <string name="ed1">"course 8"</string>
+
+
+</resources>

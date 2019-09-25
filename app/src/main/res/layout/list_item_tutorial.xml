@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1.53"
+        android:background="@drawable/background_time"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/start_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="8dp"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            tools:text="9 AM" />
+
+        <View
+            android:layout_width="3dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginBottom="28dp"
+            android:layout_marginTop="28dp"
+            android:alpha="0.7"
+            android:background="#1E88E5" />
+
+        <TextView
+            android:id="@+id/end_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:paddingBottom="8dp"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            tools:text="11 AM" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="9"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/background_blue"
+            android:orientation="vertical"
+            android:paddingBottom="5dp"
+
+            android:paddingTop="5dp">
+
+            <TextView
+                android:id="@+id/subject_tut_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@android:color/background_light"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                tools:text="subject" />
+
+            <TextView
+                android:id="@+id/desc_tut_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                tools:text="desc" />
+
+            <TextView
+                android:id="@+id/batch12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+
+                android:textColorLink="@android:color/white"
+                tools:text="batch" />
+
+
+            <TextView
+                android:id="@+id/faculty_tut_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                tools:text="faculty" />
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="3dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:background="@android:color/background_light"
+            android:visibility="invisible">
+
+
+        </View>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/background_blue"
+            android:orientation="vertical"
+            android:paddingBottom="5dp"
+
+            android:paddingTop="5dp">
+
+            <TextView
+                android:id="@+id/subject_tut_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@android:color/background_light"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                tools:text="subject" />
+
+
+            <TextView
+                android:id="@+id/desc_tut_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                tools:text="desc" />
+
+            <TextView
+                android:id="@+id/batch34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+
+                android:textColorLink="@android:color/white"
+                tools:text="batch" />
+
+            <TextView
+                android:id="@+id/faculty_tut_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                tools:text="faculty" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
