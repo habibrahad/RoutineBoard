@@ -72,7 +72,7 @@
             android:gravity="center"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:textColorLink="@android:color/white"
+            android:textColor="@color/light_red"
             tools:text="desc" />
 
         <TextView
@@ -82,7 +82,7 @@
             android:gravity="center"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:textColorLink="@android:color/white"
+            android:textColor="@color/light_red"
             tools:text="batch" />
 
         <TextView
@@ -91,7 +91,7 @@
             android:layout_height="0dp"
             android:layout_weight="1"
             android:gravity="center"
-            android:textColorLink="@android:color/white"
+            android:textColor="@color/light_red"
             tools:text="faculty" />
 
     </LinearLayout>

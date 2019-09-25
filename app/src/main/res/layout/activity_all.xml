@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:padding="5dp"
     android:divider="@null"
+    android:background="@drawable/books"
     android:dividerHeight="10dp">
 
 </ListView>

@@ -1,8 +1,6 @@
 package com.example.darkwhite.experiment;
 
-/**
- * Created by main on 18/2/18.
- */
+
 
 public class Title {
 

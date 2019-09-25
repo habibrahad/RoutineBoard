@@ -11,9 +11,7 @@ import android.widget.ListView;
 import java.util.ArrayList;
 import static com.example.darkwhite.experiment.R.string.*;
 
-/**
- * A simple {@link Fragment} subclass.
- */
+
 public class WednesdayFragment extends Fragment {
 
 
@@ -30,6 +28,7 @@ public class WednesdayFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.activity_all, container, false);
+
 
         ArrayList<Title> titles = new ArrayList<Title>();
 
