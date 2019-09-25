@@ -1,10 +1,19 @@
 package com.example.darkwhite.experiment;
 
 import android.content.Intent;
+
+
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.text.method.LinkMovementMethod;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
+import android.widget.ImageView;
 import android.widget.TextView;
+
+
+
 
 public class FrontActivity extends AppCompatActivity {
 
@@ -15,7 +24,12 @@ public class FrontActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_front);
 
-        TextView itA = (TextView) findViewById(R.id.it_a);
+        overridePendingTransition(0,0);
+        View relativeLayout=findViewById(R.id.login_container);
+        Animation animation= AnimationUtils.loadAnimation(this,android.R.anim.fade_in);
+        relativeLayout.startAnimation(animation);
+
+        ImageView itA = (ImageView) findViewById(R.id.sectiona);
         itA.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -25,7 +39,7 @@ public class FrontActivity extends AppCompatActivity {
             }
         });
 
-        TextView itB = (TextView) findViewById(R.id.it_b);
+        ImageView itB = (ImageView) findViewById(R.id.sectionb);
         itB.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -34,6 +48,19 @@ public class FrontActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+
+        ImageView itC = (ImageView) findViewById(R.id.sectionc);
+        itC.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(FrontActivity.this, MainActivity.class);
+                sec = 2;
+                startActivity(intent);
+            }
+        });
+        TextView bomb = (TextView) findViewById(R.id.bomb);        //mail link of habib
+        bomb.setMovementMethod(LinkMovementMethod.getInstance());
 
     }
 

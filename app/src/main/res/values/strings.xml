@@ -62,5 +62,10 @@
     <string name="sl1">"course 7"</string>
     <string name="ed1">"course 8"</string>
 
+    <string name="log_in">LOG IN</string>
+    <string name="final_exam">Final Exam</string>
+    <string name="final_routine">Final Routine</string>
+    <string name="_8th_semester">8th Semester</string>
+    <string name="bomb"> <a href="https://habibrahad.github.io/resume2/">DarkWhite</a></string>
 
 </resources>
