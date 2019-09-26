@@ -34,22 +34,22 @@ public class WednesdayFragment extends Fragment {
 
         if (FrontActivity.getSec() == 0) {
 
-            titles.add(new Title(wt,wt1,all,rn,t8,t9));
-            titles.add(new Title(lib,lib,all,none,t9,t10));
-            titles.add(new Title(cd,cd1,b1,sb,mp,mp1,b2,ap,se,se1,b3,ss,cgm,cgm1,b4,ns,t10,t12,2));
-            titles.add(new Title(wt,wt1,b12,rn,itnm,itnm1,b34,js,t1230,t130,1));
-            titles.add(new Title(cd,cd1,all,sb,t130,t230));
-            titles.add(new Title(se,se1,all,ss,t230,t330));
+            titles.add(new Title(sub_6,crs_6,all,sir_2,t8,t9));
+            titles.add(new Title(sub_9,sub_9,all,none,t9,t10));
+            titles.add(new Title(sub_1,crs_1,b1,sir_3,sub_5,crs_5,b2,sir_11,sub_2,crs_2,b3,sir_9,sub_4,crs_4,b4,sir_6,t10,t12,2));
+            titles.add(new Title(sub_6,crs_6,b_1_2,sir_2,sub_3,crs_3,b_3_4,sir_1,t1230,t130,1));
+            titles.add(new Title(sub_1,crs_1,all,sir_3,t130,t230));
+            titles.add(new Title(sub_2,crs_2,all,sir_9,t230,t330));
 
         }
         else {
 
-            titles.add(new Title(cd, cd1, b1, sb, mp, mp1, b2, am, se, se1, b3, ag, cgm, cgm1, b4, ns, t8, t10, 2));
-            titles.add(new Title(wt, wt1, all, rn, t10, t11));
-            titles.add(new Title(lib, lib, all, none, t11, t12));
-            titles.add(new Title(se, se1, b12, ag, cd, cd1, b34, sb, t1230, t130, 1));
-            titles.add(new Title(cgm, cgm1, all, ns, t130, t230));
-            titles.add(new Title(itnm, itnm1, all, js, t230, t330));
+            titles.add(new Title(sub_1, crs_1, b1, sir_3, sub_5, crs_5, b2, sir_5, sub_2, crs_2, b3, sir_8, sub_4, crs_4, b4, sir_6, t8, t10, 2));
+            titles.add(new Title(sub_6, crs_6, all, sir_2, t10, t11));
+            titles.add(new Title(sub_9, sub_9, all, none, t11, t12));
+            titles.add(new Title(sub_2, crs_2, b_1_2, sir_8, sub_1, crs_1, b_3_4, sir_3, t1230, t130, 1));
+            titles.add(new Title(sub_4, crs_4, all, sir_6, t130, t230));
+            titles.add(new Title(sub_3, crs_3, all, sir_1, t230, t330));
 
         }
 

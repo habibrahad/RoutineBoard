@@ -35,24 +35,24 @@ public class ThrusdayFragment extends Fragment {
 
         if (FrontActivity.getSec() == 0) {
 
-            titles.add(new Title(cgm,cgm1,all,ns,t8,t9));
-            titles.add(new Title(itnm,itnm1,all,js,t9,t10));
-            titles.add(new Title(wt,wt1,all,rn,t10,t11));
-            titles.add(new Title(cd,cd1,all,sb,t11,t12));
-            titles.add(new Title(cd,cd1,b12,sb,se,se1,b34,ss,t1230,t130,1));
-            titles.add(new Title(sprt,sprt,all,none,t130,t230));
-            titles.add(new Title(se,se1,all,ss,t230,t330));
+            titles.add(new Title(sub_4,crs_4,all,sir_6,t8,t9));
+            titles.add(new Title(sub_3,crs_3,all,sir_1,t9,t10));
+            titles.add(new Title(sub_6,crs_6,all,sir_2,t10,t11));
+            titles.add(new Title(sub_1,crs_1,all,sir_3,t11,t12));
+            titles.add(new Title(sub_1,crs_1,b_1_2,sir_3,sub_2,crs_2,b_3_4,sir_9,t1230,t130,1));
+            titles.add(new Title(sub_10,sub_10,all,none,t130,t230));
+            titles.add(new Title(sub_2,crs_2,all,sir_9,t230,t330));
 
         }
         else {
 
-            titles.add(new Title(cd, cd1, all, sb, t8, t9));
-            titles.add(new Title(cgm, cgm1, all, ns, t9, t10));
-            titles.add(new Title(se, se1, all, ag, t10, t11));
-            titles.add(new Title(itnm, itnm1, all, js, t11, t12));
-            titles.add(new Title(itnm, itnm1, b12, js, cgm, cgm1, b34, ns, t1230, t130, 1));
-            titles.add(new Title(wt, wt1, all, rn, t130, t230));
-            titles.add(new Title(sprt, sprt, all, none, t230, t330));
+            titles.add(new Title(sub_1, crs_1, all, sir_3, t8, t9));
+            titles.add(new Title(sub_4, crs_4, all, sir_6, t9, t10));
+            titles.add(new Title(sub_2, crs_2, all, sir_8, t10, t11));
+            titles.add(new Title(sub_3, crs_3, all, sir_1, t11, t12));
+            titles.add(new Title(sub_3, crs_3, b_1_2, sir_1, sub_4, crs_4, b_3_4, sir_6, t1230, t130, 1));
+            titles.add(new Title(sub_6, crs_6, all, sir_2, t130, t230));
+            titles.add(new Title(sub_10, sub_10, all, none, t230, t330));
 
         }
 

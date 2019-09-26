@@ -72,7 +72,7 @@
                 android:layout_gravity="right"
                 android:layout_marginTop="-45dp"
                 android:layout_marginEnd="0dp"
-                android:src="@drawable/bomb" />
+                android:src="@drawable/darkwhite_icon" />
 
             <ImageView
                 style="?android:attr/borderlessButtonStyle"
@@ -137,7 +137,7 @@
 
 
         <TextView
-            android:id="@+id/bomb"
+            android:id="@+id/darkwhite_icon"
 
             style="?android:attr/borderlessButtonStyle"
             android:layout_width="wrap_content"
@@ -150,7 +150,7 @@
 
             android:layout_marginBottom="0dp"
             android:fontFamily="@font/megrim"
-            android:text="@string/bomb"
+            android:text="@string/darkwhite_icon"
             android:textColor="@color/light_red"
             android:textStyle="bold" />
 

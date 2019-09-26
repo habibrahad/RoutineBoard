@@ -3,6 +3,8 @@
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
         <solid android:color="#AB68A8F0"/>
         <stroke android:width="3dp"/>
+        <padding android:right="3dp"/>
+        <padding android:left="3dp"/>
         <corners android:radius="10dp"/>
 
 </shape>

@@ -71,8 +71,8 @@ public class FrontActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        TextView bomb = (TextView) findViewById(R.id.bomb);        //mail link of habib
-        bomb.setMovementMethod(LinkMovementMethod.getInstance());
+        TextView darkwhite_icon = (TextView) findViewById(R.id.darkwhite_icon);        //mail link of habib
+        darkwhite_icon.setMovementMethod(LinkMovementMethod.getInstance());
 
     }
 

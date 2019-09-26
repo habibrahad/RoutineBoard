@@ -1,89 +1,105 @@
 <resources>
     <string name="app_name">RoutineBoard</string>
 
-    # Batches
-    <string name="all">"ALL"</string>
-    <string name="b1">"B1"</string>
-    <string name="b12">"B1,B2"</string>
-    <string name="b34">"B3,B4"</string>
-    <string name="b2">"B2"</string>
-    <string name="b3">"B3"</string>
-    <string name="b4">"B4"</string>
+                # Batches Name
+<!--     Put Your Batches Name Here-->
 
-    # Subjects
-    <string name="cd">"sub 1"</string>
-    <string name="se">"sub 2"</string>
-    <string name="itnm">"sub 3"</string>
-    <string name="cgm">"sub 4"</string>
-    <string name="mp">"sub 5"</string>
-    <string name="wt">"sub 6"</string>
-    <string name="sl">"sub 7"</string>
-    <string name="ed">"sub 8"</string>
-    <string name="lib">"sub 9"</string>
-    <string name="sprt">"sub 10"</string>
+    <string name="all">     "ALL"       </string>
+    <string name="b1">      "B1"        </string>
+    <string name="b2">      "B2"        </string>
+    <string name="b3">      "B3"        </string>
+    <string name="b4">      "B4"        </string>
+    <string name="b_1_2">   "B1,B2"     </string>
+    <string name="b_3_4">   "B3,B4"     </string>
+    <string name="b_1_3">   "B1,B3"     </string>
+    <string name="b_2_4">   "B2,B4"     </string>
 
-    # Faculties
-    <string name="js">"sir 1"</string>
-    <string name="rn">"sir 2"</string>
-    <string name="sb">"sir 3"</string>
-    <string name="pm">"sir 4"</string>
-    <string name="am">"sir 5"</string>
-    <string name="ns">"sir 6"</string>
-    <string name="np">"sir 7"</string>
-    <string name="ag">"sir 8"</string>
-    <string name="ss">"sir 9"</string>
-    <string name="mk">"sir 10"</string>
-    <string name="ap">"sir 11"</string>
-    <string name="rj">"sir 12"</string>
-    <string name="none">" ------ "</string>
+                # Subjects
+<!--    Put Your Subjects Name Here-->
 
+    <string name="sub_1">   "sub 1"     </string>
+    <string name="sub_2">   "sub 2"     </string>
+    <string name="sub_3">   "sub 3"     </string>
+    <string name="sub_4">   "sub 4"     </string>
+    <string name="sub_5">   "sub 5"     </string>
+    <string name="sub_6">   "sub 6"     </string>
+    <string name="sub_7">   "sub 7"     </string>
+    <string name="sub_8">   "sub 8"     </string>
+    <string name="sub_9">   "sub 9"     </string>
+    <string name="sub_10">  "sub 10"    </string>
 
-    # Time
-    <string name="t8">"8 AM"</string>
-    <string name="t9">"9 AM"</string>
-    <string name="t10">"10 AM"</string>
-    <string name="t12">"12 PM"</string>
-    <string name="t11">"11 AM"</string>
-    <string name="t1230">"12.30 PM"</string>
-    <string name="t130">"1.30 PM"</string>
-    <string name="t330">"3.30 PM"</string>
-    <string name="t230">"2.30 PM"</string>
-    <string name="t1">"1 PM"</string>
-    <string name="t2">"2 PM"</string>
+                 # Faculties
+<!--    Put Your Teachers Name Here-->
+
+    <string name="sir_1">   "sir 1"     </string>
+    <string name="sir_2">   "sir 2"     </string>
+    <string name="sir_3">   "sir 3"     </string>
+    <string name="sir_4">   "sir 4"     </string>
+    <string name="sir_5">   "sir 5"     </string>
+    <string name="sir_6">   "sir 6"     </string>
+    <string name="sir_7">   "sir 7"     </string>
+    <string name="sir_8">   "sir 8"     </string>
+    <string name="sir_9">   "sir 9"     </string>
+    <string name="sir_10">  "sir 10"    </string>
+    <string name="sir_11">  "sir 11"    </string>
+    <string name="sir_12">  "sir 12"    </string>
+    <string name="none">    " ------ "  </string>
 
 
-    # Subject Codes
-    <string name="cd1">"course 1"</string>
-    <string name="se1">"course 2"</string>
-    <string name="itnm1">"course 3"</string>
-    <string name="cgm1">"course 4"</string>
-    <string name="mp1">"course 5"</string>
-    <string name="wt1">"course 6"</string>
-    <string name="sl1">"course 7"</string>
-    <string name="ed1">"course 8"</string>
+                     # Time
+<!--    Put Your Scheduled Time Here-->
 
-    <string name="log_in">LOG IN</string>
-    <string name="final_exam">Final Exam</string>
-    <string name="final_routine">Final Routine</string>
-    <string name="_8th_semester">8th Semester</string>
+    <string name="t8">      "08:00 AM"  </string>
+    <string name="t9">      "09:00 AM"  </string>
+    <string name="t10">     "10:00 AM"  </string>
+    <string name="t11">     "11:00 AM"  </string>
+    <string name="t12">     "12:00 PM"  </string>
+    <string name="t1230">   "12:30 PM"  </string>
+    <string name="t1">      "01:00 PM"  </string>
+    <string name="t130">    "01:30 PM"  </string>
+    <string name="t2">      "02:00 PM"  </string>
+    <string name="t230">    "02:30 PM"  </string>
+    <string name="t3">      "03:00 PM"  </string>
+    <string name="t330">    "03:30 PM"  </string>
 
 
-    <string name="bomb"> <a href="https://habibrahad.github.io/resume2/">DarkWhite</a></string>
+
+
+
+                # Subject Codes
+<!--    Put Your Course Code Here-->
+
+    <string name="crs_1">   "course 1"  </string>
+    <string name="crs_2">   "course 2"  </string>
+    <string name="crs_3">   "course 3"  </string>
+    <string name="crs_4">   "course 4"  </string>
+    <string name="crs_5">   "course 5"  </string>
+    <string name="crs_6">   "course 6"  </string>
+    <string name="crs_7">   "course 7"  </string>
+    <string name="crs_8">   "course 8"  </string>
+    <string name="crs_9">   "course 9"  </string>
+    <string name="crs_10">  "course 10" </string>
+
+
+                    # Others
+<!--        Put Your Others Info Here-->
+
     <string name="routineboard">RoutineBoard</string>
 
+    <string name="darkwhite_icon"> <a href="https://habibrahad.github.io/resume2/">DarkWhite</a></string>
 
     <string name="about_me">        <a href="https://habibrahad.github.io">About Myself</a> </string>
 
-
     <string name= "sourcecode">     <a href="https://github.com/habibrahad/RoutineBoard">Source Code</a>   </string>
-
 
     <string name="facebook">        <a href="https://www.facebook.com/habib.reza.karim">Habib Rahad</a></string>
 
-
     <string name= "faq">            <a href="mailto:habib.reza.karim@gmail.com">FAQ</a>    </string>
+
     <string name="darkwhite">DarkWhite</string>
+
     <string name="information">Information</string>
-    <string name="version_0_0_5">Version 0.0.5</string>
+
+    <string name="version">Version 0.0.6</string>
 
 </resources>
