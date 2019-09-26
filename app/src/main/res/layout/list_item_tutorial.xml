@@ -30,7 +30,7 @@
             android:layout_marginBottom="28dp"
             android:layout_marginTop="28dp"
             android:alpha="0.7"
-            android:background="#1E88E5" />
+            android:background="#68A8F0" />
 
         <TextView
             android:id="@+id/end_time"
@@ -64,7 +64,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:textColor="@android:color/background_light"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
                 android:textSize="16sp"
                 android:textStyle="bold"
                 tools:text="subject" />
@@ -73,6 +74,7 @@
                 android:id="@+id/desc_tut_1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColor="@color/overlay"
                 android:gravity="center"
                 tools:text="desc" />
 
@@ -82,13 +84,14 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
 
-                android:textColorLink="@android:color/white"
+                android:textColor="@color/overlay"
                 tools:text="batch" />
 
 
             <TextView
                 android:id="@+id/faculty_tut_1"
                 android:layout_width="match_parent"
+                android:textColor="@color/overlay"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 tools:text="faculty" />
@@ -123,6 +126,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:textColor="@android:color/background_light"
+                android:textAllCaps="true"
                 android:textSize="16dp"
                 android:textStyle="bold"
                 tools:text="subject" />
@@ -131,6 +135,7 @@
             <TextView
                 android:id="@+id/desc_tut_2"
                 android:layout_width="match_parent"
+                android:textColor="@color/overlay"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 tools:text="desc" />
@@ -138,14 +143,16 @@
             <TextView
                 android:id="@+id/batch34"
                 android:layout_width="match_parent"
+                android:textColor="@color/overlay"
                 android:layout_height="wrap_content"
                 android:gravity="center"
 
-                android:textColorLink="@android:color/white"
+
                 tools:text="batch" />
 
             <TextView
                 android:id="@+id/faculty_tut_2"
+                android:textColor="@color/overlay"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"

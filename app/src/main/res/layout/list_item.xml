@@ -30,7 +30,7 @@
             android:layout_marginBottom="28dp"
             android:layout_marginTop="28dp"
             android:alpha="0.7"
-            android:background="#76FF03" />
+            android:background="#D7F52A" />
 
         <TextView
             android:id="@+id/end_time"
@@ -55,13 +55,13 @@
         <TextView
             android:id="@+id/subject"
             android:layout_width="match_parent"
-
+            android:textAllCaps="true"
             android:gravity="center"
-            android:textColor="@android:color/background_light"
+            android:textColor="@color/white"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:textColorLink="@android:color/white"
 
+            android:textSize="15sp"
             android:textStyle="bold"
             tools:text="subject" />
 
@@ -72,7 +72,7 @@
             android:gravity="center"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:textColor="@color/light_red"
+            android:textColor="@color/overlay"
             tools:text="desc" />
 
         <TextView
@@ -82,7 +82,7 @@
             android:gravity="center"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:textColor="@color/light_red"
+            android:textColor="@color/overlay"
             tools:text="batch" />
 
         <TextView
@@ -91,7 +91,7 @@
             android:layout_height="0dp"
             android:layout_weight="1"
             android:gravity="center"
-            android:textColor="@color/light_red"
+            android:textColor="@color/overlay"
             tools:text="faculty" />
 
     </LinearLayout>

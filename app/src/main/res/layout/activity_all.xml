@@ -4,9 +4,9 @@
     android:id="@+id/list"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="5dp"
+    android:padding="10dp"
     android:divider="@null"
     android:background="@drawable/books"
-    android:dividerHeight="10dp">
+    android:dividerHeight="15dp">
 
 </ListView>
