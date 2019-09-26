@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.darkwhite.experiment">
+    package="com.example.routineboard.experiment">
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic_routine"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/ic_routine_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name="com.example.darkwhite.experiment.SplashActivity"
+            android:name="com.example.routineboard.experiment.SplashActivity"
             android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,12 +18,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".FrontActivity"/>
-        <activity android:name="com.example.darkwhite.experiment.NotificationActivity" />
+        <activity android:name="com.example.routineboard.experiment.FrontActivity"/>
+        <activity android:name="com.example.routineboard.experiment.NotificationActivity" />
 
-        <receiver android:name="com.example.darkwhite.experiment.AlarmReceiver" />
+        <receiver android:name="com.example.routineboard.experiment.AlarmReceiver" />
 
-        <activity android:name="com.example.darkwhite.experiment.MainActivity"></activity>
+        <activity android:name="com.example.routineboard.experiment.MainActivity"></activity>
+        <activity android:name="com.example.routineboard.experiment.more"></activity>
     </application>
 
 </manifest>

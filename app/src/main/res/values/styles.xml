@@ -5,18 +5,18 @@
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/dark_gray</item>
         <item name="colorPrimaryDark">@color/dark_gray_status</item>
-        <item name="colorAccent">@color/gray</item>
-        <item name="android:colorControlNormal">@color/gray</item>
-        <item name="android:textColor">@color/gray</item>
-        <item name="android:textColorHint">@color/gray</item>
+        <item name="colorAccent">@color/light_red</item>
+        <item name="android:colorControlNormal">@color/light_red</item>
+        <item name="android:textColor">@color/light_red</item>
+        <item name="android:textColorHint">@color/light_red</item>
     </style>
 
     <style name="RegistrationEditTextStyle">
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_width">match_parent</item>
-        <item name="android:textColorHint">@color/gray</item>
-        <item name="android:textColor">@color/gray</item>
-        <item name="android:tint">@color/gray</item>
+        <item name="android:textColorHint">@color/light_red</item>
+        <item name="android:textColor">@color/light_red</item>
+        <item name="android:tint">@color/light_red</item>
     </style>
 
     <color name="white">#ffffff</color>

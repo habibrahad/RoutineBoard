@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -21,53 +22,57 @@
         android:layout_marginTop="60dp"
         android:src="@drawable/routine_icon" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/header_icon"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="0dp"
-        android:layout_marginTop="130dp"
-        android:layout_marginEnd="0dp"
-        android:gravity="center"
-        android:text="@string/routineboard"
-        android:textColor="@color/light_green"
-        android:textSize="25sp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/bomb"
-        style="@android:style/Animation"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="13dp"
-        android:layout_marginRight="13dp"
-        android:layout_marginBottom="17dp"
-        android:fontFamily="@font/megrim"
-        android:text="@string/bomb"
-        android:textColor="@color/light_red"
-        android:textStyle="bold" />
-
-
-    <RelativeLayout
+       <RelativeLayout
         android:id="@+id/login_container"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
+
         android:layout_alignParentStart="true"
         android:layout_below="@id/header_icon">
 
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="2"
+                android:layout_rowWeight="1"
+                app:cardElevation="2dp"
+                app:cardBackgroundColor="@color/cardview_shadow_start_color"
+                app:cardCornerRadius="13dp"
+                android:layout_margin="2dp">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
-            android:padding="10dp"
+            android:padding="16dp"
             android:gravity="center">
+
+            <TextView
+                android:fontFamily="@font/megrim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/header_icon"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="0dp"
+
+                android:layout_marginEnd="0dp"
+                android:gravity="center"
+                android:text="@string/routineboard"
+                android:textColor="@color/light_green"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+
+            <ImageView
+                android:id="@+id/more"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="right"
+                android:layout_marginTop="-45dp"
+                android:layout_marginEnd="0dp"
+                android:src="@drawable/bomb" />
 
             <ImageView
                 style="?android:attr/borderlessButtonStyle"
@@ -128,5 +133,30 @@
 
 
         </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+        <TextView
+            android:id="@+id/bomb"
+
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="13dp"
+
+            android:layout_marginBottom="0dp"
+            android:fontFamily="@font/megrim"
+            android:text="@string/bomb"
+            android:textColor="@color/light_red"
+            android:textStyle="bold" />
+
+
     </RelativeLayout>
+
+
 </RelativeLayout>
+
