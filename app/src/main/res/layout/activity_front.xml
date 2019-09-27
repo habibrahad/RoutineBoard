@@ -10,8 +10,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="@drawable/books"
-    tools:context=".FrontActivity">
+    android:background="@drawable/back"
+    tools:context="com.darkwhite.routineboard.FrontActivity">
 
     <ImageView
         android:id="@+id/header_icon"

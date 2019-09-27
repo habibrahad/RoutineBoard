@@ -1,4 +1,4 @@
-package com.example.routineboard.experiment;
+package com.darkwhite.routineboard;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -8,6 +8,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
+
+import com.darkwhite.routineboard.R;
 
 import java.util.ArrayList;
 

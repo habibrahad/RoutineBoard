@@ -1,4 +1,4 @@
-package com.example.routineboard.experiment;
+package com.darkwhite.routineboard;
 
 import android.app.Notification;
 import android.app.NotificationChannel;
@@ -9,6 +9,8 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Build;
+
+import com.darkwhite.routineboard.R;
 
 import static android.app.NotificationManager.IMPORTANCE_DEFAULT;
 

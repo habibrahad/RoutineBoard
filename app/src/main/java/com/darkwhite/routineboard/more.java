@@ -1,10 +1,11 @@
-package com.example.routineboard.experiment;
+package com.darkwhite.routineboard;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.method.LinkMovementMethod;
-import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.darkwhite.routineboard.R;
 
 public class more extends AppCompatActivity {
 

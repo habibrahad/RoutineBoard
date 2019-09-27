@@ -1,4 +1,4 @@
-package com.example.routineboard.experiment;
+package com.darkwhite.routineboard;
 
 import android.content.Intent;
 
@@ -13,7 +13,7 @@ import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-
+import com.darkwhite.routineboard.R;
 
 
 public class FrontActivity extends AppCompatActivity {

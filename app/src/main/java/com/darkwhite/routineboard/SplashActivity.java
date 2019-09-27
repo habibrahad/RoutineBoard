@@ -1,4 +1,4 @@
-package com.example.routineboard.experiment;
+package com.darkwhite.routineboard;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
+
+import com.darkwhite.routineboard.R;
 
 public class SplashActivity extends AppCompatActivity {
 

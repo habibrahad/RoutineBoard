@@ -1,4 +1,4 @@
-package com.example.routineboard.experiment;
+package com.darkwhite.routineboard;
 
 
 import android.os.Bundle;
@@ -10,8 +10,8 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 
-import static com.example.routineboard.experiment.R.*;
-import static com.example.routineboard.experiment.R.string.*;
+import static com.darkwhite.routineboard.R.*;
+import static com.darkwhite.routineboard.R.string.*;
 
 /**
  * A simple {@link Fragment} subclass.

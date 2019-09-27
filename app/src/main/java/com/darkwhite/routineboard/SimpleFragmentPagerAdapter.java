@@ -1,4 +1,4 @@
-package com.example.routineboard.experiment;
+package com.darkwhite.routineboard;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;

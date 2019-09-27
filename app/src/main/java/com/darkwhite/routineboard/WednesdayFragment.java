@@ -1,4 +1,4 @@
-package com.example.routineboard.experiment;
+package com.darkwhite.routineboard;
 
 
 import android.os.Bundle;
@@ -8,8 +8,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
 
+import com.darkwhite.routineboard.R;
+
 import java.util.ArrayList;
-import static com.example.routineboard.experiment.R.string.*;
+import static com.darkwhite.routineboard.R.string.*;
 
 
 public class WednesdayFragment extends Fragment {
