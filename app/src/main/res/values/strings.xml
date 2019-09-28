@@ -1,21 +1,9 @@
 <resources>
     <string name="app_name">RoutineBoard</string>
 
-                # Batches Name
-<!--     Put Your Batches Name Here-->
 
-    <string name="all">     "ALL"       </string>
-    <string name="b1">      "B1"        </string>
-    <string name="b2">      "B2"        </string>
-    <string name="b3">      "B3"        </string>
-    <string name="b4">      "B4"        </string>
-    <string name="b_1_2">   "B1,B2"     </string>
-    <string name="b_3_4">   "B3,B4"     </string>
-    <string name="b_1_3">   "B1,B3"     </string>
-    <string name="b_2_4">   "B2,B4"     </string>
-
-                # Subjects
-<!--    Put Your Subjects Name Here-->
+                 # Subjects
+    <!--    Put Your Subjects Name Here-->
 
     <string name="sub_1">   "sub 1"     </string>
     <string name="sub_2">   "sub 2"     </string>
@@ -28,7 +16,39 @@
     <string name="sub_9">   "sub 9"     </string>
     <string name="sub_10">  "sub 10"    </string>
 
-                 # Faculties
+
+                # Course Codes
+    <!--    Put Your Course Code Here-->
+
+    <string name="crs_1">   "course 1"  </string>
+    <string name="crs_2">   "course 2"  </string>
+    <string name="crs_3">   "course 3"  </string>
+    <string name="crs_4">   "course 4"  </string>
+    <string name="crs_5">   "course 5"  </string>
+    <string name="crs_6">   "course 6"  </string>
+    <string name="crs_7">   "course 7"  </string>
+    <string name="crs_8">   "course 8"  </string>
+    <string name="crs_9">   "course 9"  </string>
+    <string name="crs_10">  "course 10" </string>
+
+                # Batches Name
+<!--     Put Your Batches Name Here-->
+
+    <string name="all">     "ALL"       </string>
+    <string name="b1">      "B1"        </string>
+    <string name="b2">      "B2"        </string>
+    <string name="b3">      "B3"        </string>
+    <string name="b4">      "B4"        </string>
+    <string name="b_1_2">   "B1,B2"     </string>
+    <string name="b_3_4">   "B3,B4"     </string>
+    <string name="b_1_3">   "B1,B3"     </string>
+    <string name="b_2_4">   "B2,B4"     </string>
+    <string name="b_1_4">   "B1,B4"     </string>
+    <string name="b_2_3">   "B2,B3"     </string>
+
+
+
+                # Teachers name
 <!--    Put Your Teachers Name Here-->
 
     <string name="sir_1">   "sir 1"     </string>
@@ -66,19 +86,7 @@
 
 
 
-                # Subject Codes
-<!--    Put Your Course Code Here-->
 
-    <string name="crs_1">   "course 1"  </string>
-    <string name="crs_2">   "course 2"  </string>
-    <string name="crs_3">   "course 3"  </string>
-    <string name="crs_4">   "course 4"  </string>
-    <string name="crs_5">   "course 5"  </string>
-    <string name="crs_6">   "course 6"  </string>
-    <string name="crs_7">   "course 7"  </string>
-    <string name="crs_8">   "course 8"  </string>
-    <string name="crs_9">   "course 9"  </string>
-    <string name="crs_10">  "course 10" </string>
 
 
                     # Others
@@ -100,6 +108,6 @@
 
     <string name="information">Information</string>
 
-    <string name="version">Version 0.0.6</string>
+    <string name="version">Version 0.0.7</string>
 
 </resources>

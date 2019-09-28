@@ -46,13 +46,23 @@ public class TuesdayFragment extends Fragment {
             titles.add(new Title(sub_10,sub_10,all,none,t230,t330));
 
         }
-        else {
+        else if (FrontActivity.getSec() == 1) {
 
             titles.add(new Title(sub_5, crs_5, b1, sir_5, sub_2, crs_2, b2, sir_8, sub_4, crs_4, b3, sir_6, sub_1, crs_1, b4, sir_3, t8, t10, 2));
             titles.add(new Title(sub_8, crs_8, b_1_2, sir_7, sub_7, crs_7, b_3_4, sir_2, t10, t12, 1));
             titles.add(new Title(sub_1, crs_1, b_1_2, sir_3, sub_2, crs_2, b_3_4, sir_8, t1230, t130, 1));
             titles.add(new Title(sub_1, crs_1, all, sir_3, t130, t230));
             titles.add(new Title(sub_4, crs_4, all, sir_6, t230, t330));
+
+        }
+
+        else  {
+
+            titles.add(new Title(sub_1,crs_1,b_1_2,sir_1,t8,t9));
+            titles.add(new Title(sub_2,crs_2,b_3_4,sir_2,t9,t10));
+            titles.add(new Title(sub_3,crs_3,b1,sir_3,sub_4,crs_4,b2,sir_4,sub_5,crs_5,b3,sir_5,sub_6,crs_6,b4,sir_6,t10,t12,2));
+            titles.add(new Title(sub_7,crs_7,b_1_3,sir_7,sub_8,crs_8,b_2_4,sir_8,t1230,t130,1));
+            titles.add(new Title(sub_9,crs_9,b_1_4,sir_9,sub_10,crs_10,b_2_3,sir_10,t130,t330,1));
 
         }
 
