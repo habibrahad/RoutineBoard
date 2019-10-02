@@ -118,14 +118,14 @@ You can Modify the Application for your Project or Personal Use.
     - To change the Top Bar of the Layout, Edit the XML file named with `activity_main`.
     - To chagne the Items Layout, Edit the XML files named with `list_item`, `list_item_practical` and `list_item_tutorial`.
 
-<p align="center"><img src="src/snap-pp_use89.png" /></p>
+<p align="center"><img src="src/snap-pp_use9.png" /></p>
 
 
    ---
 ### By Default Variable Combination
 
-<p align="center"><img src="src/snap-default_variable_combination1" /></p>
-<p align="center"><img src="src/snap-default_variable_combination2" /></p>
+<p align="center"><img src="src/snap-default_variable_combination1.png" /></p>
+<p align="center"><img src="src/snap-default_variable_combination2.png" /></p>
 
 
 
@@ -133,10 +133,10 @@ You can Modify the Application for your Project or Personal Use.
 ---
 
 ## Background & Icon Credit
-- <a href="https://www.freepik.com/free-photos-vectors/logo">Logo vector created by Creative_hat - www.freepik.com</a>
-- <a href="https://unsplash.com/photos/sfL_QOnmy00"> Photo by 🇸🇮 Janko Ferlič - @specialdaddy on Unsplash</a>
-- <a href="https://www.freepik.com/free-photos-vectors/school">School vector created by freepik - www.freepik.com</a> 
-- <a href="https://www.freepik.com/free-photos-vectors/background">Background vector created by freepik - www.freepik.com</a>
+- <a target="_blank" href="https://www.freepik.com/free-photos-vectors/logo">Logo vector created by Creative_hat - www.freepik.com</a>
+- <a target="_blank" href="https://unsplash.com/photos/sfL_QOnmy00"> Photo by 🇸🇮 Janko Ferlič - @specialdaddy on Unsplash</a>
+- <a target="_blank" href="https://www.freepik.com/free-photos-vectors/school">School vector created by freepik - www.freepik.com</a> 
+- <a target="_blank" href="https://www.freepik.com/free-photos-vectors/background">Background vector created by freepik - www.freepik.com</a>
  
 ----
 
